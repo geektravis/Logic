@@ -3,7 +3,7 @@ angular.module('index').config(function($stateProvider) {
     url: '/',
     views: {
       main: {
-        controller: 'LogoController',
+        controller: 'IndexController',
         templateUrl: 'index/index.tpl.html'
       }
     },

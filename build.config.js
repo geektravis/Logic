@@ -22,7 +22,7 @@ module.exports = {
   app_files: {
     js: [ 'src/**/*.js', '!src/**/*.spec.js', '!src/assets/**/*.js' ],
     jsunit: [ 'src/**/*.spec.js' ],
-    
+
     atpl: [ 'src/app/**/*.tpl.html' ],
     ctpl: [ 'src/common/**/*.tpl.html' ],
 
@@ -60,15 +60,17 @@ module.exports = {
   vendor_files: {
     js: [
       'bower_components/lodash/lodash.js',
-      'bower_components/jquery/dist/jquery.js',
+        'bower_components/jquery/dist/jquery.js',
+        'bower_components/jquery-ui/jquery-ui.js',
       'bower_components/angular/angular.js',
+      'bower_components/angular-dragdrop/src/angular-dragdrop.js',
+        'bower_components/angular-ui-utils/modules/route/route.js',
       'bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js',
-      'bower_components/angular-ui-router/release/angular-ui-router.js',
-      'bower_components/angular-ui-utils/modules/route/route.js',
-        'bower_components/ng-sortable/dist/ng-sortable.js'
+      'bower_components/angular-ui-router/release/angular-ui-router.js'
     ],
     css: [
-        'bower_components/ng-sortable/dist/ng-sortable.css'
+        'bower_components/jquery-ui/themes/ui-lightness/jquery-ui.min.css'
+
     ],
     assets: [
     ]
